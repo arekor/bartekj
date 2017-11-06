@@ -1,0 +1,46 @@
+body { 
+  background: url(../images/bj_www-05.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@font-face {
+    font-family: 'bitter'; /*a name to be used later*/
+    src: url('../fonts/Bitter-Regular.ttf'); /*URL to font*/
+}
+@font-face {
+  font-family: 'bitter-bold'; /*a name to be used later*/
+  src: url('../fonts/Bitter-Bold.ttf'); /*URL to font*/
+}
+@font-face {
+  font-family: 'bitter-italic'; /*a name to be used later*/
+  src: url('../fonts/Bitter-Italic.ttf'); /*URL to font*/
+}
+@media (min-width: 1200px){
+  .container {
+    max-width: 1400px;
+  }
+}
+.row
+{
+  margin-left: 0px;
+}
+
+h1{
+  font-size:24pt;  /* 4.0vh; */
+}
+
+p{
+  font-size: 18pt;
+}
+
+span{
+  font-size: 16pt;
+}
+
+.container
+{
+  color: white;
+}
